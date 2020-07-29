@@ -15,6 +15,7 @@
 cat a.txt | /usr/bin/sort
 
 Алтернативен вариант за тестване на програмите foo и bar с един терминал:
-./foo a &
+
+./foo a.txt &
 
 ./bar /usr/bin/sort
